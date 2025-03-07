@@ -1,10 +1,11 @@
-import AppLayout from '@/components/AppLayout'
 import React from 'react'
+
+import Experiences from '@/components/Experiences'
 
 export default function ExperiencesPage() {
   return (
-    <AppLayout>
-        <div>ExperiencesPage</div>
-    </AppLayout>
+    <>
+      <Experiences />
+    </>
   )
 }
