@@ -22,7 +22,7 @@ export default function Tags( { tags }: TagsProps ) {
                 tags.map((tag, index) => {
                     const randomColor = colors[index % colors.length];
                     return (
-                        <span className={`px-3 py-2 ${randomColor.bg} ${randomColor.text} text-xs rounded-full font-medium`}>
+                        <span className={`px-3 py-2 ${randomColor.bg} ${randomColor.text} text-[10px] lg:text-xs rounded-full font-medium`}>
                             { tag }
                         </span>
                     );
