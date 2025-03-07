@@ -1,3 +1,4 @@
+import AppLayout from "@/components/AppLayout";
 import "@/styles/globals.css";
 import { Fira_Code } from 'next/font/google';
 
@@ -17,11 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`m-0 p-0 ${fira_code.className}`}>
       <body className="m-0 p-0
-        w-screen h-screen
+        w-full h-screen
         bg-gradient-to-b from-secondary-dark-blue via-[#212F5A] to-primary-dark-blue
         text-primary-light-blue
         flex flex-col items-center">
-        {children}
+          <AppLayout>
+            {children}
+          </AppLayout>
       </body>
     </html>
   )
