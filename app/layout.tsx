@@ -3,9 +3,10 @@ import { Fira_Code } from 'next/font/google';
 import "@/styles/globals.css";
 import AppLayout from "@/components/AppLayout";
 
-export const metadata = {
-  title: 'Jonah\'s Portfolio',
-}
+// export const metadata = {
+//   title: 'Jonah\'s Portfolio',
+//   favicon: '/logo.png'
+// }
 
 export const fira_code = Fira_Code({
   subsets: ['latin'],
@@ -18,6 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`m-0 p-0 ${fira_code.className}`}>
+      <head>
+        <title>Jonah's Portfolio</title>
+        <link rel="icon" href="/logo.png" type="image/png" />
+      </head>
       <body className="m-0 p-0
         w-full h-screen
         bg-gradient-to-b from-secondary-dark-blue via-[#212F5A] to-primary-dark-blue

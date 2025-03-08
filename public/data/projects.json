@@ -1,7 +1,7 @@
 [
     {
         "title": "Portfolio Website",
-        "description": "lorem itsum",
+        "description": "A portfolio website designed to highlight projects and experiences—the very site you're currently engaging with. Contact information is available at the bottom for inquiries and connections.",
         "tags": ["Next.js", "Tailwind"],
         "demo": null
     }

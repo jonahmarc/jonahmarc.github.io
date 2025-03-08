@@ -6,9 +6,9 @@ export default function Home() {
       <div className="welcome-text
           flex flex-col gap-2
           w-full">
-        <h2 className="text-xl">Hi There</h2>
+        <h2 className="text-xl italic">Hi There</h2>
         <h1 className="text-4xl font-bold">I am <span className="text-secondary-light-blue">Jonah Marc</span></h1>
-        <h2 className="text-2xl">I am a software developer</h2>
+        <h2 className="text-2xl italic">I am a software developer</h2>
         {/* <p className="text-sm font-light mt-5">
           I am currently building my portfolio, focusing on full-stack web development, including testing and deployment.
         </p> */}
