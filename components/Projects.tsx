@@ -25,8 +25,8 @@ export default function Projects() {
 
         <div className="flex flex-col gap-2">
             {
-                projects.map((project) => (
-                    <div className="info-card bg-primary-light-blue text-primary-dark-blue
+                projects.map((project, index) => (
+                    <div key={index} className="info-card bg-primary-light-blue text-primary-dark-blue
                         flex flex-col gap-3 lg:gap-4 justify-start
                         p-3 lg:p-8">
                         <div className="flex flex-col lg:flex-row gap-2 lg:gap-5">

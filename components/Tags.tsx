@@ -35,7 +35,7 @@ export default function Tags({ tags }: TagsProps) {
                 tags.map((tag, index) => {
                     const color = shuffledColors[index % shuffledColors.length];
                     return (
-                        <span className={`px-3 py-2 ${color.bg} ${color.text} text-[10px] lg:text-xs rounded-full font-medium`}>
+                        <span key={index} className={`px-3 py-2 ${color.bg} ${color.text} text-[10px] lg:text-xs rounded-full font-medium`}>
                             {tag}
                         </span>
                     );
