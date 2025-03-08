@@ -6,3 +6,9 @@
 video {
     max-width: 0px;
 } */
+
+/* transparent for the background effect */
+.vanta-canvas {
+    background: transparent !important;
+    opacity: 0.5;
+}

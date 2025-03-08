@@ -1,6 +1,7 @@
-import AppLayout from "@/components/AppLayout";
-import "@/styles/globals.css";
 import { Fira_Code } from 'next/font/google';
+
+import "@/styles/globals.css";
+import AppLayout from "@/components/AppLayout";
 
 export const metadata = {
   title: 'Jonah\'s Portfolio',
