@@ -25,11 +25,7 @@ export default function NavBar() {
       {
         href: "/experiences",
         name: "Experiences",
-      },
-      // {
-      //   href: "/contact",
-      //   name: "Contact",
-      // },
+      }
     ];
 
   return (
