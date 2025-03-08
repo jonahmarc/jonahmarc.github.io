@@ -29,9 +29,9 @@ export default function NavBar() {
     ];
 
   return (
-    <nav className="w-full h-[8%] lg:h-[10%] xl:h-[12%]
-        py-5 px-5 md:px-36 lg:pr-10 xl:pr-20 mb-8 lg:mb-4
-        flex justify-around items-center lg:justify-end
+    <nav className="h-[100px] w-full
+        py-15 px-5 lg:px-10
+        flex flex-shrink-0 justify-around items-center lg:justify-end
         text-sm xl:text-base
         font-medium">
         {
