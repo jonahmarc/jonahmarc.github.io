@@ -1,8 +1,8 @@
 [
     {
         "title": "Portfolio Website",
-        "description": "A portfolio website designed to highlight projects and experiences—the very site you're currently engaging with. Contact information is available at the bottom for inquiries and connections.",
-        "tags": ["Next.js", "Tailwind"],
+        "description": "A portfolio website created to showcase projects and experiences—the same site you're exploring right now. This static site is hosted on GitHub Pages, with contact details provided at the bottom for inquiries and networking.",
+        "tags": ["Next.js", "Tailwind", "GitHub Pages"],
         "demo": null
     }
 ]
