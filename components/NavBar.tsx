@@ -26,10 +26,10 @@ export default function NavBar() {
         href: "/experiences",
         name: "Experiences",
       },
-      {
-        href: "/contact",
-        name: "Contact",
-      },
+      // {
+      //   href: "/contact",
+      //   name: "Contact",
+      // },
     ];
 
   return (
