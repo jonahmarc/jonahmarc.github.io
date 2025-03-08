@@ -1,0 +1,97 @@
+[
+    {
+        "title": "Lead Developer",
+        "duration": "",
+        "company": "Freelance",
+        "description": [
+            "Enhanced and scaled a .NET MVC-based Learning Management System (LMS), integrating new functional areas and user types while maintaining seamless operation for existing users.",
+            "Resolved long-standing issues, including the bootcamp assignment type creation bug and the index navigation issue on the student pages with video.",
+            "Contributed to resolving critical bugs within the websites and LMS.",
+            "Implement new features for a static HTML, JavaScript and CSS website.",
+            "Lead a team of 3 developers to deliver a feature within a deadline."
+        ],
+        "tags": [
+            ".NET",
+            "C#",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Azure"
+        ]
+    },
+    {
+        "title": "Full-stack Developer",
+        "duration": "",
+        "company": "Freelance",
+        "description": [
+            "Implement and enhance features in both the client-side and server-side of the software. Integrated third-party APIs, such as OpenAI, to support these features.",
+            "Refactored and upgraded portions of an existing React.js Web3 application by integrating the latest libraries and transitioning to Next.js.",
+            "Set up the software and APIs on the Linux server to facilitate live deployment."
+        ],
+        "tags": [
+            "React.js",
+            "Tailwind",
+            "Linux",
+            "Apache2"
+        ]
+    },
+    {
+        "title": "Front-end Developer",
+        "duration": "",
+        "company": "Freelance",
+        "description": [
+            "Developed and revised website pages using Wordpress themes, plugins and some custom code",
+            "Introduce new features, resolve bugs, and address compatibility issues with the theme and plugins."
+        ],
+        "tags": [
+            "Wordpress",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "title": "Junior Developer",
+        "duration": "01/2023 - 10/2024",
+        "company": "FILCAN GLOBAL ENVELOPE STRATEGIES",
+        "description": [
+            "Integrated products to different platforms using microservices and API.",
+            "Created test plans for the integration testing, and performed manual integration testing."
+        ],
+        "tags": [
+            "Python",
+            "Microservices",
+            "Manual Testing"
+        ]
+    },
+    {
+        "title": "Python Developer",
+        "duration": "01/2023 - 12/2023",
+        "company": "Freelance",
+        "description": [
+            "Develop AWS Lambda functions that can interact with AWS S3 and other Lambda functions.",
+            "Developed dynamic PDF generation that adapts to requests, ensuring proper layout without overflow"
+        ],
+        "tags": [
+            "Python",
+            "Lambda",
+            "AWS"
+        ]
+    },
+    {
+        "title": "SOFTWARE DESIGN ENGINEER 1",
+        "duration": "06/2022 - 12/2022",
+        "company": "NEC TELECOM SOFTWARE PHILIPPINES INC.",
+        "description": [
+            "Implemented new features.",
+            "Performed manual and automated integration testing of the software."
+        ],
+        "tags": [
+            "Python",
+            "React.js",
+            "Manual Testing",
+            "Automated Testing",
+            "Katalon Studio",
+            "Ranorex"
+        ]
+    }
+]
