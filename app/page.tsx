@@ -16,7 +16,7 @@ export default function Home() {
           w-full">
         <h2 className="text-2xl font-bold">Recent <span className="text-secondary-light-blue">Projects</span></h2>
         <div className="flex-grow overflow-y-auto">
-          <Projects />
+          <Projects limit={2} />
         </div>
       </div>
     </div>
