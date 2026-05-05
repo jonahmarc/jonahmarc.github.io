@@ -22,10 +22,10 @@ export default function NavBar() {
         href: "/projects",
         name: "Projects",
       },
-      {
-        href: "/experiences",
-        name: "Experiences",
-      }
+      // {
+      //   href: "/experiences",
+      //   name: "Experiences",
+      // }
     ];
 
   return (
