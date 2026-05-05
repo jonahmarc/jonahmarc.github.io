@@ -1,5 +1,17 @@
 [
     {
+        "title": "Google Flow Image Generator",
+        "description": "A reverse-engineered API wrapper for Google Flow's image generation, built with FastAPI and Playwright.",
+        "tags": ["Python", "Playwright", "FastAPI", "Google Flow"],
+        "demo": "https://youtu.be/G0d5ANSUvqc"
+    },
+    {
+        "title": "Discord Task Tracker Bot",
+        "description": "Rembot - A personal task tracker bot for Discord. Add tasks, list them, mark them done, and receive daily DM reminders — all via slash commands.",
+        "tags": ["Node.js", "Discord.js", "PM2", "VPS"],
+        "demo": "https://youtu.be/9c-Vq7UfinM"
+    },
+    {
         "title": "Portfolio Website",
         "description": "A portfolio website created to showcase projects and experiences—the same site you're exploring right now. This static site is hosted on GitHub Pages, with contact details provided at the bottom for inquiries and networking.",
         "tags": ["Next.js", "Tailwind", "GitHub Pages"],
