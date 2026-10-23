@@ -12,8 +12,11 @@ interface Project {
     demo: string;
 }
 
+function isYouTubeUrl(url: string): boolean {
+    return /(?:youtu\.be\/|[?&]v=)([\w-]{11})/.test(url);
+}
+
 function getYouTubeEmbedUrl(url: string): string {
-    // handles youtu.be/ID and youtube.com/watch?v=ID
     const match = url.match(/(?:youtu\.be\/|[?&]v=)([\w-]{11})/);
     return match ? `https://www.youtube.com/embed/${match[1]}` : url;
 }
@@ -57,7 +60,14 @@ export default function Projects({ limit }: { limit?: number }) {
                             { project.description }
                         </p>
                         <button
-                            onClick={() => project.demo && setActiveDemo(project)}
+                            onClick={() => {
+                                if (!project.demo) return;
+                                if (isYouTubeUrl(project.demo)) {
+                                    setActiveDemo(project);
+                                } else {
+                                    window.open(project.demo, '_blank', 'noopener,noreferrer');
+                                }
+                            }}
                             className={`w-fit px-5 py-2 rounded-xl text-xs
                                 ${ project.demo ? "text-secondary-light-blue bg-secondary-dark-blue" : "text-gray-500 bg-gray-400"}`}
                             disabled={ project.demo ? false : true}
